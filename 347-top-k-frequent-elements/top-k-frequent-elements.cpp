@@ -20,7 +20,7 @@ public:
 
         vector<int>result;
 
-        for(int i=n; i >=0; i--){
+        for(int i=n; i >0; i--){
             
             while(bucket[i].size()>0 && k > 0){
                 result.push_back(bucket[i].back());
