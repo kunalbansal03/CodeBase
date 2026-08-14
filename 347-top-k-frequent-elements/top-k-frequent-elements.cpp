@@ -22,11 +22,11 @@ public:
 
         for(int i=n; i >=0; i--){
             
-                while(bucket[i].size()>0 && k > 0){
+            while(bucket[i].size()>0 && k > 0){
                 result.push_back(bucket[i].back());
                 bucket[i].pop_back();
                 k--;
-                }
+            }
             
         }
         return result;
